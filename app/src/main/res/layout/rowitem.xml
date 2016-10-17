@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/t_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Some Title" />
+
+    <TextView
+        android:id="@+id/t_item_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_item_title"
+        android:text="Some Description" />
+
+    <TextView
+        android:id="@+id/t_item_description"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_item_status"
+        android:text="Completed" />
+
+
+    <Button
+        android:id="@+id/b_item_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_item_description"
+        android:text="Mark Completed" />
+
+</RelativeLayout>
